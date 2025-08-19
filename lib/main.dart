@@ -9,6 +9,7 @@ void main() async {
    await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform
   );
+////////////////android/app/src/main/android mainfest /            android:value="Your Api Key Here" />
 
 
   runApp(MaterialApp(
